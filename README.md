@@ -96,10 +96,16 @@ The project includes an interactive Streamlit application that:
 ## 📸 Application Screenshots
 
 ### 🌞 Prediction Dashboard
-![Dashboard](<img width="1903" height="894" alt="Screenshot 2026-02-15 190854" src="https://github.com/user-attachments/assets/af6e1bd9-aca4-4b05-b51e-efd8b09252cd" />)
+![Dashboard](https://github.com/rtanvi1604/Solar_Power_Forecasting_System/blob/5bad1713c9863062a866bd0fefd6b30fa3e4d153/Prediction_Dashboard.png)
 
 ### 🔍 Feature Importance Analysis
-![Feature Importance](<img width="1364" height="596" alt="Screenshot 2026-02-15 190925" src="https://github.com/user-attachments/assets/53f2de97-1d74-4d5d-bf19-c63114a2520b" />)
+![Feature Importance](https://github.com/rtanvi1604/Solar_Power_Forecasting_System/blob/5bad1713c9863062a866bd0fefd6b30fa3e4d153/Feature_Analysis.png)
+
+### 📈 Power Output Visualization
+![Power Output](https://github.com/rtanvi1604/Solar_Power_Forecasting_System/blob/5bad1713c9863062a866bd0fefd6b30fa3e4d153/Power_Output_Visualization.png)
+
+###  🔢 Detailed Input Parameters
+![Input Parameters](https://github.com/rtanvi1604/Solar_Power_Forecasting_System/blob/5bad1713c9863062a866bd0fefd6b30fa3e4d153/Input_Parameters.png)
 
 ---
 
