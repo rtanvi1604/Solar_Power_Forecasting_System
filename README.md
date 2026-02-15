@@ -1,29 +1,150 @@
-# Solar-Power-Forecasting-System
-AI-powered Solar Energy Output Prediction System using Machine Learning to enhance smart grid stability and renewable energy integration.
+# 🌞 Solar Power Forecasting System
 
-## Overview
-The Solar Power Forecasting System is a machine learning-based solution designed to predict solar power generation using environmental and atmospheric parameters. The system improves renewable energy planning by enabling accurate short-term forecasting for smart grid optimization.
+AI-Based Renewable Energy Output Prediction using Machine Learning.
 
-This project demonstrates end-to-end ML development including data preprocessing, model training, evaluation, deployment, and visualization.
+---
 
-## Features
-- 🌤 Predicts solar power output in kW
-- 📊 Feature importance visualization
-- 📈 Model performance evaluation (MAE & RMSE)
-- 🖥 Interactive web interface using Streamlit
+## 📌 Overview
+
+The **Solar Power Forecasting System** is a machine learning-based solution designed to predict solar power generation using environmental and atmospheric parameters.
+
+Solar energy generation is highly dependent on weather conditions such as radiation, temperature, cloud cover, and solar angles. This project addresses the challenge of variability in renewable energy generation by developing a predictive model that improves grid planning and energy management.
+
+The system demonstrates a complete end-to-end ML workflow including:
+
+- Data preprocessing  
+- Feature engineering  
+- Model training  
+- Performance evaluation  
+- Web deployment using Streamlit  
+
+---
+
+## 🚀 Key Features
+
+- 🌤 Predicts solar power output (kW)
+- 📊 Feature importance analysis
+- 📈 Performance evaluation using MAE & RMSE
+- 🖥 Interactive Streamlit web interface
 - ⚡ Real-time prediction simulation
 - 🔍 Physics-aware feature selection
 
+---
+
 ## 🧠 Machine Learning Approach
-## Algorithm Used:
+
+### 🔹 Algorithm Used
 Random Forest Regressor
-## Why Random Forest?
-- Handles non-linear relationships
-- Robust against overfitting
-- Provides feature importance
-- Performs well on structured environmental data
 
-## Evaluation Metrics:
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
+### 🔹 Why Random Forest?
+- Handles non-linear relationships effectively  
+- Reduces overfitting using ensemble learning  
+- Works well with structured environmental data  
+- Provides feature importance for explainability  
 
+### 🔹 Input Features
+- Shortwave Radiation  
+- Temperature (2m above ground)  
+- Relative Humidity  
+- Wind Speed (10m above ground)  
+- Total Cloud Cover  
+- Angle of Incidence  
+- Zenith  
+
+### 🔹 Target Variable
+- Generated Power (kW)
+
+---
+
+## 📊 Model Performance
+
+| Metric | Value |
+|--------|-------|
+| MAE | 532.03 |
+| RMSE | 675.34 |
+| Max Power | 3056 kW |
+
+The model demonstrates strong predictive capability for solar energy forecasting and aligns with real-world solar physics factors.
+
+---
+
+## 📂 Project Structure
+Solar_Power_Forecasting_System
+│
+├── data/
+├── src/
+│ └── train.py
+├── models/ (ignored in Git)
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+---
+
+## 🖥 Web Application
+
+The project includes an interactive Streamlit application that:
+
+- Accepts real-time environmental inputs
+- Predicts solar power output
+- Displays power visualization
+- Shows feature importance analysis
+
+---
+
+## 📸 Application Screenshots
+
+### 🌞 Prediction Dashboard
+![Dashboard](<img width="1903" height="894" alt="Screenshot 2026-02-15 190854" src="https://github.com/user-attachments/assets/af6e1bd9-aca4-4b05-b51e-efd8b09252cd" />)
+
+### 🔍 Feature Importance Analysis
+![Feature Importance](<img width="1364" height="596" alt="Screenshot 2026-02-15 190925" src="https://github.com/user-attachments/assets/53f2de97-1d74-4d5d-bf19-c63114a2520b" />)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+git clone https://github.com/rtanvi1604/Solar_Power_Forecasting_System.git
+cd Solar_Power_Forecasting_System
+
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 3️⃣ Train the Model
+python src/train.py
+
+### 4️⃣ Run the Web App
+streamlit run app.py
+
+---
+
+## 🔮 Future Enhancements
+
+- Implement LSTM for advanced time-series forecasting  
+- Integrate real-time weather APIs  
+- Deploy model on cloud platforms (Azure)  
+- Extend to Hybrid Solar + Wind forecasting  
+- Improve prediction accuracy through advanced tuning  
+
+---
+
+## 🌍 Impact
+
+Accurate solar power forecasting enables:
+
+- Improved grid stability  
+- Reduced energy wastage  
+- Better renewable energy planning  
+- Support for sustainable smart cities  
+- Contribution to carbon emission reduction  
+
+---
+
+## 📌 Note
+
+The trained model file (`.pkl`) is not included in this repository due to GitHub file size limitations.  
+Run `python src/train.py` to generate the model locally before launching the application.
+
+---
